@@ -177,4 +177,19 @@ body {
     width: 100%;
     max-width: 350px;
   }
+  .user-profile {
+    align-items: left;
+  }
+  .user-paragraph {
+    max-width: 280px;
+  }
+  .user-content:nth-child(1) {
+    top: 1vh;
+  }
+  .user-content:nth-child(2) {
+    top: 3vh;
+  }
+  .user-content:nth-child(3) {
+    top: 5vh;
+  }
 }
