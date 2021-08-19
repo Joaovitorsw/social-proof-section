@@ -4,5 +4,33 @@
   --tertiary-color: hsl(303, 10%, 53%);
   --quartenary-color: hsl(300, 24%, 96%);
   --quinary-color: hsl(0, 0%, 100%);
-  --senary-color: ;
+}
+body {
+  padding: 20px;
+  font-family: "Spartan", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-card,
+.text-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  max-width: 250px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+.paragraph {
+  font-size: 14px;
+  font-weight: 500;
+  max-width: 320px;
+  text-align: center;
+  color: var(--tertiary-color);
+  margin-bottom: 20px;
 }
