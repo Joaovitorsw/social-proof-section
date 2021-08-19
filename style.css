@@ -167,4 +167,14 @@ body {
     margin-left: 100px;
     margin-right: 40px;
   }
+  .user-card {
+    grid-column: 1/-1;
+  }
+  .user-content {
+    position: relative;
+    margin: 0;
+    margin-right: 35px;
+    width: 100%;
+    max-width: 350px;
+  }
 }
