@@ -91,3 +91,9 @@ body {
   font-weight: 400;
   color: var(--secondary-color);
 }
+.user-paragraph {
+  margin-top: 30px;
+  line-height: 20px;
+  color: var(--quartenary-color);
+  font-size: 12px;
+}
