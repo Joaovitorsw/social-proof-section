@@ -34,3 +34,29 @@ body {
   color: var(--tertiary-color);
   margin-bottom: 20px;
 }
+.star-card {
+  width: 100%;
+  max-width: 300px;
+}
+.star-content {
+  background-image: url(images/icon-star.svg), url(images/icon-star.svg),
+    url(images/icon-star.svg), url(images/icon-star.svg),
+    url(images/icon-star.svg);
+  background-repeat: no-repeat;
+  background-position-y: 15px;
+  background-position-x: 30%, 40%, 50%, 60%, 70%;
+  background-color: var(--quartenary-color);
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.start-text {
+  display: inline-block;
+  padding-top: 35px;
+  padding-bottom: 05px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
