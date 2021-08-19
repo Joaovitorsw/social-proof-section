@@ -60,3 +60,34 @@ body {
   font-weight: 700;
   color: var(--primary-color);
 }
+
+.user-content {
+  padding: 30px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  margin: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 300px;
+}
+.user-content img {
+  border-radius: 50%;
+  width: 40px;
+}
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+.user-name {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 20px;
+  color: var(--quartenary-color);
+}
+.user-status {
+  margin-top: 5px;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
