@@ -133,4 +133,38 @@ body {
     line-height: 20px;
     max-width: 450px;
   }
+  .star-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .star-content {
+    width: 100%;
+    max-width: 380px;
+    background-position-x: 7%, 14%, 21%, 28%, 35%;
+  }
+
+  .start-text {
+    margin-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+  .star-content:nth-child(1) {
+    margin-left: 40px;
+    margin-right: 120px;
+  }
+  .star-content:nth-child(2) {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .star-content:nth-child(3) {
+    margin-left: 100px;
+    margin-right: 40px;
+  }
 }
